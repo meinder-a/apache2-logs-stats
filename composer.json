@@ -1,0 +1,20 @@
+{
+    "name": "meinder-a/apache2-logs-stats",
+    "authors": [
+        {
+            "name": "meinder-a",
+            "email": "me@meinder-a.com"
+        }
+    ],
+    "require": {
+        "thephplab/entities": "^1.8"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeinderA\\Apache2LogsStats\\App\\": "src/"
+        }
+    }
+}
